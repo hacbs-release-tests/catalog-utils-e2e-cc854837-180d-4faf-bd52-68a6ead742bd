@@ -83,7 +83,7 @@ spec:
         - name: sourceDataArtifact
           value: $(params.sourceDataArtifact)
     - name: extract-signed-files
-      image: quay.io/konflux-ci/release-service-utils@sha256:5546fa78d3c88d7b6a2e8cff8902f7757f00541d0bbaf113b9f293133894afa3
+      image: quay.io/redhat-user-workloads-stage/konflux-release-service-tenant/release-service-utils@sha256:01b07996f5679389a65b1c561f782fa622d32c0993609683c097277fa8a92e8a
       computeResources:
         limits:
           memory: 256Mi
